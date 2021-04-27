@@ -1,0 +1,213 @@
+.wrapper{
+    position:absolute;
+    left:30%;
+    top:10%;
+      
+  }
+  .head{
+    position: relative;
+      width:400px;
+      height: 350px;
+      border:solid 2px black;
+      background-color: red;
+      border-radius: 100em;
+    z-index:1;
+   
+  }
+  
+  .righteye{
+    position:relative;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border:solid 1px black;
+    top: -80px;
+    left: 225px;
+    background-color: black;
+    border-radius: 100px 50px;
+  }
+  
+  #rie{
+    position:relative;
+    width: 70px;
+    height: 70px;
+    z-index:3;
+    border:solid 1px white;
+    top: 65px;
+    left: 30px;
+    background-color: white;
+    border-radius: 100px;  
+  }
+  
+  .lefteye{
+    position:relative;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border:solid 1px back;
+    top: 64px;
+    left: 32px;
+    background-color: black;
+    border-radius: 50px 100px;
+  }
+  
+  #lie{
+     position:relative;
+    width: 70px;
+    height: 70px;
+    z-index:3;
+    border:solid 1px white;
+    top: 65px;
+    left: 50px;
+    background-color: white;
+    border-radius: 100px; 
+   }
+  
+  .body{
+    height: 300px;
+    width: 300px;
+    position:relative;
+    border:solid 1px black;
+    background-color: red;
+    z-index:0;
+    top:-25px;
+    left:50px;
+    border-radius: 50px 50px 0px 0px;
+  }
+  
+  .left-stripe{
+    position: relative;
+    height:300px;
+    width:25px;
+    left:10px;
+    border:solid  1px black;
+    background-color:black;
+    border-radius:99px 0px 0px
+  }
+  
+  .right-stripe{
+    position: relative;
+    height:300px;
+    width:25px; 
+    top:-300px;
+    left:265px;
+    border:solid  1px black;
+    background-color:black;
+    border-radius:0px 99px 0px 0px;
+  }
+  
+  .left-arm{
+    position:relative;
+    height: 260px;
+    width: 60px;
+    top:-620px;
+    left:-90px;
+    border:none solid solid solid 1px black;
+    background-color: lightgray;
+    z-index:-1;
+    border-radius: 100px 100px 0 0 ;
+    transform: rotate(45deg)  
+  }
+  
+  .right-arm{
+    position:relative;
+    height: 260px;
+    width: 60px;
+    top:-890px;
+    left:320px;
+    border:none 1px black;
+    background-color:blue;
+    z-index:-1;
+    border-radius: 100px 100px 0 0 ;
+    transform: rotate(315deg)  
+  }
+  
+  .belt{
+    position: relative;
+    height:25px;
+    width:300px;
+    top:-835px;
+    border: solid 1px black;
+    background-color: gray;
+  }
+  
+  .left-hand{
+    position:relative;
+    height:60px;
+    width:60px;
+    left:-190px;
+    top:-971px;
+    z-index:-2;
+    border:solid 2px black;
+    background-color:black;
+    border-radius:100px
+  }
+  
+  .right-hand{ 
+      position:relative;
+    height:60px;
+    width:60px;
+    left:420px;
+    top:-1040px;
+    z-index:-2;
+    border:solid 2px black;
+    background-color:black;
+    border-radius:100px
+  }
+  
+  .mouth {
+      width: 250px;
+      height: 70px;
+      border: solid 1px black;
+      border-radius: 0 0 45px 45px;
+      margin: 16px;
+      position: relative;
+      top: -5em;
+      left: 4em;
+      background-color: black;
+  }
+  
+  #tooth1 {
+    width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid white;
+    position: relative;
+    top: 0px;
+    left: 70px;
+  }
+  
+  #tooth2 {
+    width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid white;
+    position: relative;
+    top: -10px;
+    left: 100px;
+    
+  }
+  
+  #tooth3 {
+    width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid white;
+    position: relative;
+    top: -20px;
+    left: 130px;
+  }
+  
+  #tooth4 {
+    width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid white;
+    position: relative;
+    top: -30px;
+    left: 160px;
+  }
